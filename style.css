@@ -1,0 +1,9 @@
+:root{--bg:#fffaf0;--fg:#3a2c26;--muted:#7a6a60;--accent:#b8732e;--card:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1916;--fg:#f3e9dc;--muted:#b9a897;--accent:#f0b25e;--card:#2a241f}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px max(16px,env(safe-area-inset-left))}
+header{display:flex;gap:16px;align-items:center}
+header img{width:88px;height:88px;border-radius:50%}
+h1{margin:0;font-size:28px} h2{font-size:19px;margin-top:32px}
+a{color:var(--accent)} .muted{color:var(--muted);font-size:14px}
+footer{margin-top:48px;color:var(--muted);font-size:14px}
